@@ -23,7 +23,7 @@ namespace MethodOverloading
             {
                 Console.WriteLine($"{sum} dollars");
             }
-            else if (word == true && sum == 1)
+            else if (isMoney == true && sum == 1)
                 {
                 Console.WriteLine($"{sum} dollar");
                 }
