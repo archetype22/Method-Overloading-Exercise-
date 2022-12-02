@@ -16,10 +16,10 @@ namespace MethodOverloading
         {
             Console.WriteLine(num1 + num2);
         }
-        public static void Add(int num1, int num2, bool word) 
+        public static void Add(int num1, int num2, bool isMoney) 
         {
             var sum = num1 + num2;  
-            if (word == true && sum > 1)
+            if (isMoney == true && sum > 1)
             {
                 Console.WriteLine($"{sum} dollars");
             }
