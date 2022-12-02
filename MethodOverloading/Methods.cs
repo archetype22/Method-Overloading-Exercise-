@@ -12,13 +12,13 @@ namespace MethodOverloading
         {
             Console.WriteLine(num1 + num2); 
         }
-        public static void Add(decimal num3, decimal num4) 
+        public static void Add(decimal num1, decimal num2) 
         {
-            Console.WriteLine(num3 + num4);
+            Console.WriteLine(num1 + num2);
         }
-        public static void Add(int num5, int num6, bool word) 
+        public static void Add(int num1, int num2, bool word) 
         {
-            var sum = num5 + num6;  
+            var sum = num1 + num2;  
             if (word == true && sum > 1)
             {
                 Console.WriteLine($"{sum} dollars");
